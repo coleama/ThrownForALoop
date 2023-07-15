@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-string greeting = @"Welcome to Thrown For a Loop
-your one-stop shop for used sporting equipment";
-Console.WriteLine(greeting);
-List<Product> products = new List<Product>()
+﻿List<Product> products = new List<Product>()
 {
   new Product()
     { 
@@ -138,4 +134,3 @@ void ViewLatestProducts()
         Console.WriteLine($"{i + 1}. {latestProducts[i].Name}");
     }
 }
-
